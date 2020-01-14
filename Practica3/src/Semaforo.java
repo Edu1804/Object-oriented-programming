@@ -24,7 +24,7 @@ public class Semaforo implements ISemaforo {
 	}
 	  
 	public boolean equals(ISemaforo s) {
-	  return colorCentral == s.getColorCentral();
+		return colorCentral == s.getColorCentral();
 	}
 	  
 	public ISemaforo clone() {

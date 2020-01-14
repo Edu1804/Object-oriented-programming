@@ -11,6 +11,7 @@ public class Conjunto implements IConjunto {
 
 	  private boolean[] conjunto;
 
+
 	  public Conjunto(){
 	  		conjunto = new boolean[SIZE]; // por defecto, la JVM lo rellena a falses
 	  }
@@ -36,7 +37,7 @@ public class Conjunto implements IConjunto {
 		   auxiliar.set(i, c.get(i) || conjunto[i]); 
 		 return auxiliar;	  
 	  }
-	  
+
 	  public IConjunto intersection(IConjunto c) {
 		  Conjunto auxiliar = new Conjunto();   // Instanciación con el constructor vacío
 		  for (int i = 0; i < SIZE; i++)

@@ -15,7 +15,7 @@ public class Controlador implements KeyListener {  // Listener de las pulsacione
     private PropertyChangeSupport supportTeclado;
 	
 	/**
-	 * @param modelo Se recoge el modelo para actualizar su temperatura a partir de los eventos entrantes.
+	 Se recoge el modelo para actualizar su temperatura a partir de los eventos entrantes.
 	 */
 	public Controlador (PropertyChangeSupport supportTeclado) {
       this.supportTeclado = supportTeclado; 
